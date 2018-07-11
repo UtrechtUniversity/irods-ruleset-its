@@ -12,4 +12,7 @@ UUREPLICATIONRESOURCE = "irodsRescRepl";
 UUMAXREVISIONSIZE = double("2000000000"); # 2GB as in 2 * 1000 * 1000 * 1000
 
 # \constant UUBLACKLIST
-UUBLACKLIST = list("._*", ".DS_Store"); 
+UUBLACKLIST = list("._*", ".DS_Store");
+
+# \constant UUINSTANCENAME     tijdelijk nodig bij Yoda 1.0-1.2
+UUINSTANCENAME = "its";
